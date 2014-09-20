@@ -1,3 +1,20 @@
+.nav ul:hover ul
+{
+    display: block;
+    position: absolute;
+}
+
+.nav ul ul
+{
+    display: none;
+}
+
+.nav ul li a:hover 
+{
+    color: #D8D8D4;
+}
+
+
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -12,14 +29,14 @@
 
 .jumbotron {
   background-image:url(http://cdn.wonderfulengineering.com/wp-content/uploads/2013/06/blueprints-engineering-251605.jpg);
-  height: 500px;
+  height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top:20px;
 }
 
 .jumbotron h1 {
@@ -35,7 +52,9 @@
 }
 
 .learn-more {
-  background-color: #f7f7f7;
+ /* background-color: #f7f7f7; */
+    background-color:#efefef;
+    
 }
 
 .learn-more h3 {
@@ -49,7 +68,7 @@
 }
 
 .neighborhood-guides{
-  background-color:#efefef;
+  background-color:#D6E0EB;
   border-bottom: 1px solid #dbdbdb;
 }
 
