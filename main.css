@@ -1,18 +1,58 @@
-.nav ul:hover ul
-{
-    display: block;
-    position: absolute;
+
+
+.nav ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  list-style: none;
+}
+.nav ul li {
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 5px 20px;
+  background: #fff;
+  cursor: pointer;
+}
+.nav ul li:hover {
+  background: gray;
+  color: green;
 }
 
-.nav ul ul
-{
-    display: none;
+.nav ul li:hover a {
+  color: white;
 }
 
-.nav ul li a:hover 
-{
-    color: #D8D8D4;
+.nav ul li ul {
+  z-index: 5;
+  padding: 0;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
 }
+.nav ul li ul li { 
+  background: gray; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+.nav ul li ul li:hover { background: blue; }
+.nav ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/*   asdddadssadfjhsldfkjghsldkghdsklfjg */
 
 
 .nav a {
@@ -22,6 +62,7 @@
   padding: 14px 10px;
   text-transform: uppercase;
 }
+
 
 .nav li {
   display: inline;
