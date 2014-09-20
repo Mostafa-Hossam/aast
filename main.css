@@ -11,7 +11,6 @@
   display: inline-block;
   margin-right: -4px;
   position: relative;
-  padding: 5px 20px;
   background: #fff;
   cursor: pointer;
 }
@@ -28,7 +27,7 @@
   z-index: 5;
   padding: 0;
   position: absolute;
-  top: 35px;
+  top: 20px;
   left: 0;
   width: 150px;
   -webkit-box-shadow: none;
